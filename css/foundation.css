@@ -761,6 +761,23 @@ textarea.form-control {
   transition: background .2s;
 }
 
+.audience-item-disabled {
+  display: block;
+  height: 100%;
+  min-height: 300px;
+  padding: 22px 24px 24px;
+  background: #DDD;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.05), inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.05), inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #999;
+  text-align: center;
+  -webkit-transition: background .2s;
+  -o-transition: background .2s;
+  transition: background .2s;
+}
+
+
 .audience-item:hover {
   background: #3041C4;
 }
@@ -777,6 +794,15 @@ textarea.form-control {
 .audience-title {
   font-size: 22px;
   font-weight: 700;
+  -webkit-transition: color .2s;
+  -o-transition: color .2s;
+  transition: color .2s;
+}
+
+.coming-soon-title {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
   -webkit-transition: color .2s;
   -o-transition: color .2s;
   transition: color .2s;
