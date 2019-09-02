@@ -761,6 +761,12 @@ textarea.form-control {
   transition: background .2s;
 }
 
+.audience-pic {
+  display: block;
+  margin: auto;
+  max-height: 230px;
+}
+
 .audience-item-disabled {
   display: block;
   height: 100%;
